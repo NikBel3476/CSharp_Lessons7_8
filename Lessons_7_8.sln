@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons_7_8", "Lessons_7_8\Lessons_7_8.csproj", "{8E3E3830-DCA6-4298-8028-EEB20DDB4539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{9FD3AECC-E0CE-4F05-9DF8-07CEECE4EA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{CA70E67A-01EA-49CD-87FE-E5932E599D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{8E3E3830-DCA6-4298-8028-EEB20DDB4539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E3E3830-DCA6-4298-8028-EEB20DDB4539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E3E3830-DCA6-4298-8028-EEB20DDB4539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD3AECC-E0CE-4F05-9DF8-07CEECE4EA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD3AECC-E0CE-4F05-9DF8-07CEECE4EA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD3AECC-E0CE-4F05-9DF8-07CEECE4EA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD3AECC-E0CE-4F05-9DF8-07CEECE4EA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA70E67A-01EA-49CD-87FE-E5932E599D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA70E67A-01EA-49CD-87FE-E5932E599D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA70E67A-01EA-49CD-87FE-E5932E599D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA70E67A-01EA-49CD-87FE-E5932E599D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

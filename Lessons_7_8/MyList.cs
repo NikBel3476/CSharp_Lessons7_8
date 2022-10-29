@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System.Text;
 
 namespace Lessons_7_8;
 
@@ -8,8 +8,8 @@ namespace Lessons_7_8;
 /// <typeparam name="T">Тип элементов списка</typeparam>
 public class MyList<T>
 {
-    internal T[] _items;
-    internal int _size;
+    private T[] _items;
+    private int _size;
 
     /// <summary>
     /// Инициализирует новый экземпляр MyList, который является пустым и имеет начальную емкость 0.
@@ -170,4 +170,22 @@ public class MyList<T>
     /// Отсчитываемый от нуля индекс первого вхождения <paramref name="item" /> во всем списке, если он найден; иначе -1.
     /// </returns>
     public int IndexOf(T item) => Array.IndexOf(_items, item, 0, _size);
+    
+    /// <summary>
+    /// Возвращает строковое представление элементов списка.
+    /// </summary>
+    /// <returns>Строковое представление элементов списка.</returns>
+    public override string ToString()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.Append('[');
+        for (int i = 0; i < _size; i++)
+        {
+            if (i > 0)
+                sb.Append(", ");
+            sb.Append(_items[i]);
+        }
+        sb.Append(']');
+        return sb.ToString();
+    }
 }
